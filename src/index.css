@@ -1,0 +1,454 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.icon i{
+  margin: 0 10px 0 10px;
+  color: rgb(206, 201, 223) ;
+  
+}
+.phone{
+  margin: 0 10px 0 10px;
+}
+
+.header_container_dark{
+  background-color: rgb(37, 37, 37);
+  color: rgb(206, 201, 223);
+ padding: 0 50px;
+}
+
+.loginsignup{
+  display: flex;
+  justify-content: flex-end;
+ 
+}
+
+.loginsignup button{
+  background: none;
+  border: none;
+  color: rgb(206, 201, 223);
+
+}
+
+.custom-link-nav .nav-link{
+  color: rgb(37, 37, 37);
+  padding: 0 10px;
+  border-right: 1px solid rgb(37,37,37);
+  }
+  
+  
+  .custom-link-nav .nav-item:last-child .nav-link
+  {
+  border: none;
+  }
+  
+  
+  .custom-link-nav{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-custom .custom-logo{
+    height: 93.2px;
+  
+  }
+  
+  .custom-align{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  
+  }
+  
+  .button{
+    height:50px;
+    margin-top: 21px;
+    border-radius: 30px;
+    background-color: rgb(125, 114, 126);
+    border-color: rgb(125, 114, 126);
+    
+  }
+  
+  .nav-custom{
+    padding:5px 50px;
+    padding-right: 12px;
+    padding-left: 160px;
+  }
+  .hero-img-custom{
+    height: 520px;
+  background-image: url("./components/images/sanika.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  }
+  
+  .hero-heading{
+  
+    position: absolute;
+    top: 40px;
+    left: 75px;
+    text-transform: uppercase;
+  
+  }
+  
+  
+  .hero-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+  
+    background-color: rgba(223, 175, 233, 0.479);
+  }
+ 
+  .banner-1-custom{
+    height: 300px;
+    background-color: rgb(89, 69, 90);;
+  color: rgb(236, 230, 255); 
+  display: flex;
+  flex-direction: column;
+  padding:0 150px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .banner-1-custom span{
+  margin: 15px 0;
+    width: 50px;
+    height: 1px;
+  border-top: 5px solid #fff;
+  
+  }
+ 
+  .circle-div-container{
+  position: relative;
+  height: 300px;
+  width: 809px;
+  
+  }
+  .circular-div{
+    height: 200px;
+    width: 200px;
+    
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    border: 1px solid #000;
+    top: 17%;
+  
+  }
+  
+  .circular-div span{
+    text-align: center;
+  }
+  
+  
+  .circular-div.cr1{
+  
+  
+    left: 15%;
+  }
+  .circular-div.cr2{
+    background-color: rgb(182, 119, 140);
+    left: 37%;
+    color: #fff;
+    border: none;
+    z-index: 2;
+  
+  }
+  .circular-div.cr3{
+  
+    left: 58%;
+
+  }
+  
+  .donate-info-btn-con .btn{
+    border-radius: 30px;
+    height: 34px;
+    width: 122px;
+    font-size: 15px;
+    margin: 0 10px;
+    left: 37%;
+    
+  }
+  .donate-info-btn-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .text-secondary{
+    font-size: 20px;
+    left:37%;
+    
+  }
+  .donate-container{
+    background-color: rgb(224, 209, 224);
+    
+  }
+  .photo{
+    height: 65px;
+    width: 120px;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+  }
+  .apple{
+     text-align: center;
+     color: rgb(247, 233, 250);
+     
+  }
+  .sanika{
+    background-color: rgb(125, 114, 126);
+  }
+
+  hr {
+    margin: auto 600px;
+    border: 3px solid black ;
+    
+  }
+  .mission{
+     height: 390px;
+     width: 550px;
+     
+  }
+  .col-6{
+    text-align: center;
+    color: rgb(45, 37, 48);
+    
+  }
+  b{
+    color: rgb(224, 224, 15);
+  }
+ .lad{
+   background-color: thistle;
+ 
+ }
+ .abc{
+   padding-right: 0;
+ }
+ .custom-misc-h1-1 span{
+  color: #02b24f;
+}
+
+.custom-logo-misc{
+  width: 70px;
+  height: 70px;
+  margin-top: 30px;
+}
+
+.line2{
+margin: 15px auto;
+border-color: #02b24f;
+
+}
+
+.custom-card-btn{
+  background-color: rgb(236, 230, 255);
+  color: #02b24f;
+  border: none;
+}
+.custom-card-btn:hover{
+  background-color: rgb(207, 204, 214);
+  color: #02b24f;
+  border: none;
+  
+}
+
+.custom-card-img{
+  padding: 0;
+}
+
+.custom-card-img img{
+  max-height: 400px;
+}
+
+.card-1-custom-con{
+  max-width:724px;
+  margin: 0 auto;
+}
+
+.height{
+  height: 345px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(158, 158, 158);
+}
+
+.bar-chart{
+width: 45px;
+display: flex;
+flex-direction: column-reverse;
+background-color: rgb(51, 22, 51);
+position: relative;
+color: whitesmoke;
+
+}
+
+.bar-chart p {
+white-space: nowrap;
+transform: rotate(-90deg);
+
+}
+.bar-chart div {
+position: absolute;
+top: -20px;
+left: 8px;
+}
+
+.con-chart{
+  height: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.custom-misc-2-con-chart{
+  padding: 40px 150px;
+  background-color: #f6f5f3;
+}
+
+.cuystom-card-2 .card-img-top{
+  max-height: 230px;
+}
+
+.cuystom-card-2 .card-title{
+  font-size: 15px;
+}
+.cuystom-card-2 .card-text{
+padding: 5px;
+  font-size: 10px;
+}
+.rose{
+  text-align: center;
+}
+
+.familyicon{
+  margin: 0 40px 0 40px;
+}
+.join{
+  
+  height: 305px;
+  background-image: url("./components/images/Cap.PNG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}
+.lily{
+  background-color: darkcyan;
+  height: 66px;
+  width: 66px;
+  color: #fff;
+}
+
+.lion{
+  background-color: darkcyan;
+  height: 66px;
+  width: 66px;
+  color: #fff;
+}
+.flower{
+  height: 470px;
+  background-image: url("./components/images/gray.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.san{
+  text-align: center;
+  background-color: thistle;
+}
+.cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-icon{
+  position: relative;  
+  }
+  
+  .form-icon i{
+    position: absolute;
+    left: 5px;
+    top: 16%;
+  
+  }
+  
+  .form-icon input{
+    padding: 0 0 0 30px;
+  }
+  
+  .pill{
+    border-radius: 30px;
+  }
+  
+  .transperant{
+    position: absolute;
+    max-width: 550px;
+    right: 76px;
+    top: 20px;
+  }
+  
+  
+  .sliderimage{
+    border-radius: 50%;
+    max-width: 150px;
+  }
+  
+  
+  /* .custom-misc-3-con-chart{
+    background-color: #f6f5f3;
+  } */
+  .usericon i{
+    position: absolute;
+    left: 193px;
+    top:116px;
+  }
+  .address i{
+    position: absolute;
+    left: 193px;
+    top: 160px;
+  }
+  .tel i{
+    position: absolute;
+    left: 452px;
+    top: 160px;
+  }
+  .tel input{
+    padding: 0 0 0 30px;
+  }
+  .usericon input{
+    padding: 0 0 0 30px;
+  }
+  .address input{
+    padding: 0 0 0 30px;
+  }
+  .slider-image-team{
+    border-radius: 50%;
+    max-width: 150px;
+  }
+  .inspo{
+    text-align: center;
+    color: rgb(90, 78, 90);
+  }
+  .contact{
+    color: rgb(90, 78, 90);
+  }
+  .slide{
+    background-color: rgb(236, 226, 222);
+  }
+  .card1{
+    justify-content: space-between;
+  }
